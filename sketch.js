@@ -108,6 +108,8 @@ if (arrowGroup.isTouching(pinkB)) {
 
   
   drawSprites();
+	textSize(20);
+	fill("green");
     text("Score: "+ score, 500,50);
 }
 
